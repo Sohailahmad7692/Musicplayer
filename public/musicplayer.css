@@ -1,0 +1,172 @@
+#upperheader{
+    position: absolute;
+    position: fixed;
+    height:30%;
+    width:100%;
+    margin-top: 0px;
+    border-width:2px 2px 2px 2px;
+    border-style: solid;
+    border-color: grey;
+    background-color: rgba(50,250,50,1);
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 1;
+    opacity: 1;
+}
+#headerslogan{
+  position: absolute;
+    font-size: 500%;
+    color: hotpink;
+    text-shadow: -1px 0px black,0px 1px black,1px 0px black,0px -1px black;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 7%;
+    top:25%
+
+}
+ul{
+  position: relative;
+  list-style-type: none;
+  margin-left: 5%;
+  background-color: rgba(169,169,169,1);
+  /* position: fixed; */
+  /* z-index: 1; */
+  box-shadow: 5px 5px gray;
+  top: -28%;
+  width: 50%;
+}
+
+.co{
+  margin-left: 5%;
+  margin-bottom:10% ;
+  font-size: 150%;
+    font-family:"Comic Sans MS", cursive, sans-seri;
+    color:rgb(20, 115, 211);
+    text-shadow: -1px 0px black,0px 1px black,1px 0px black,0px -1px black;
+
+}
+.co:hover{
+  color: white;
+  background-color:white;
+  cursor: pointer;
+}
+ul li:hover{
+  color: white;
+  background-color:white;
+  cursor: pointer;
+}
+a:link, a:visited {
+  color:blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link:active, a:visited:active {
+  color:blue ;
+}
+
+#romanticheading{
+  /* font-size: 50px; */
+  /* z-index: 5; */
+  position: absolute;
+  top: 50%;
+  margin-bottom: 10px;
+}
+.flexdisplay{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  /* margin-top:30%; */
+}
+.flexdisplay img{
+  width: 70%;
+  height: 70%;
+}
+.flexdisplay div{
+  flex-wrap:nowrap;
+  flex-shrink: initial;
+}
+.flexdisplay div span{
+  position: relative;
+  
+}
+
+#divoldisgold{
+  position: absolute;
+  /* top:100%; */
+  top: 115%;
+}
+#divpopmusic{
+  position: absolute;
+  /* top:100%; */
+  top: 190%;
+}
+#perfecttitle{
+  position: absolute;
+  top: 1%;
+  z-index: 1;
+  font-size: 20px;
+  color: blueviolet;
+}
+#youtubevideo{
+    position: absolute;
+    display:block;
+    z-index: 1;
+    margin-top: 30%;
+    top: 6%;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* background-image: url('searchicon.png'); */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    position: relative;
+    left: 60%;
+
+  }
+  
+  input[type=text]:focus {
+    width: 30%;
+    background-color:lightblue;
+  }
+  input[type=button] {
+    width: 6%%;
+    height:20%;
+    font-size:100%;
+    color:black;
+    position: relative;
+    right:-60%;
+    height:40px;
+  }
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+margin-left: 10px;
+}
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
